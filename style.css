@@ -1,0 +1,115 @@
+/* .music-section{
+  width: 100%;
+  background-image: url(https://cdn.shopify.com/s/files/1/0708/8953/7685/files/jukka-aalho-OaPksPcVp50-unsplash-2.jpg?v=1744005319);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+p{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.befor-after{
+  display: flex;
+  gap: 10px;
+}
+
+@media (min-width: 768px) {
+  .row{
+      display: flex;
+      gap: 10px;
+  }
+}
+
+audio {
+  width: 200px;
+  height: 40px;
+  border: 2px solid #333;
+  background-color: #f9f9f9;
+}
+
+p {
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+} */
+
+.music-section {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-image: url(https://cdn.shopify.com/s/files/1/0708/8953/7685/files/jukka-aalho-OaPksPcVp50-unsplash-2.jpg?v=1744005319);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.left {
+  flex: 1 1 45%;
+  min-width: 300px;
+}
+
+.header {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+p {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+}
+
+.befor-after {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.befor-after div {
+  flex: 1 1 45%;
+  text-align: center;
+}
+
+audio {
+  width: 100%;
+  max-width: 300px;
+  outline: none;
+  background-color: transparent;
+  height: 40px;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: transparent !important;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-volume-slider {
+  filter: none !important;
+}
+
+audio::-webkit-media-controls-enclosure {
+  border-radius: 0 !important;
+  background-color: #fff !important;
+  box-shadow: none !important;
+}
+
+audio:focus {
+  outline: none;
+}
+
+p {
+  margin-top: 5px;
+  font-size: 14px;
+}

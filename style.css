@@ -84,14 +84,14 @@ audio {
   width: 100%;
   max-width: 300px;
   outline: none;
-  background-color: transparent;
+  background-color: white;
   height: 40px;
   appearance: none;
   -webkit-appearance: none;
 }
 
 audio::-webkit-media-controls-panel {
-  background-color: transparent !important;
+  background-color: white !important;
 }
 
 audio::-webkit-media-controls-play-button,
